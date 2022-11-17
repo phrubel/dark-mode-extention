@@ -1,0 +1,21 @@
+{
+    "name":"dark mode",
+    "description": "Convert light mode to Dark mode or Dark mode to Light mode click on simple toggle button.",
+    "version": "1.0.0",
+    "manifest-version": 2,
+    "background":{
+        "script":[
+            "open.js"
+        ],
+        "persistent":true    
+    },
+    "browser-action":{
+        "default_title": "Dark Mode",
+        "default_popup":"open.html"
+    },
+    "permission":[
+        "https://*/*",
+        "http://*/*",
+        "tabs"
+    ]
+}
